@@ -1,0 +1,24 @@
+/* Popup Đăng nhập/Đăng ký chuyên nghiệp */
+#authModal {
+  z-index: 9999;
+}
+#authModal .auth-gradient {
+  border-image: linear-gradient(135deg,#7f5af0,#00c6fb,#ff61a6) 1;
+}
+#authModal input:focus {
+  border-color: #7f5af0;
+  box-shadow: 0 0 0 2px #e0e7ff;
+}
+#authModal button[type="submit"] {
+  background: linear-gradient(90deg,#00c6fb,#ff61a6);
+  box-shadow: 0 4px 16px 0 #e0e7ff;
+}
+#authModal button[type="submit"]:hover {
+  background: linear-gradient(90deg,#ff61a6,#00c6fb);
+}
+#authModal .social-btn {
+  transition: transform 0.2s;
+}
+#authModal .social-btn:hover {
+  transform: scale(1.1);
+}
